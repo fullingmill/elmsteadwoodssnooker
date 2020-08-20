@@ -1,0 +1,107 @@
+body {
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+}
+
+nav {
+  width: 100%;
+  padding-top: 1rem;
+  background-color: black;
+  margin: 0;
+}
+
+ul {
+  margin-bottom: 0;
+  text-align: right;
+}
+
+li {
+  display: inline-block;
+  color: white;
+  padding: 0.5rem, 1.5rem;
+  margin-right: 1.5rem;
+  margin-bottom: 0;
+}
+
+#home {
+  background-image: url(https://source.unsplash.com/LsEL4F5POBI/1600x900);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  position: relative;
+  width: 100%;
+  height: 300px;
+  margin-top: 0;
+}
+
+#home h1 {
+  color: white;
+  text-align: left;
+  margin-top: 0;
+}
+
+#home p {
+  color: white;
+  font-weight: bold;
+  font-size: 1.04rem;
+  position: absolute;
+  bottom: 0;
+}
+
+table {
+  border: 1px solid black;
+}
+
+td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+#testimonial {
+  height: 100px;
+  padding: 30px 50px 50px 50px;
+  background-color: black;
+  color: white;
+}
+
+#testimonial h3 {
+  position: relative;
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+#testimonial p {
+  position: relative;
+}
+
+#facilities {
+}
+
+#facilities img {
+  background-color: black;
+  display: block;
+  width: 30%;
+  margin: 1.5%;
+  float: left;
+}
+
+footer {
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  margin-top: 10px;
+}
+
+footer p {
+  font-style: bold;
+}
+
+@media only screen and (max-width: 500px) {
+  #facilities img {
+    width: 100%;
+    margin: 0;
+  }
+}
